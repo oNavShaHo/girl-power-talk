@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <img src={logo} className="logo" />
+      <img src={logo} alt="yoyo" className="logo" />
       <div className="center-links">
         <nav>
           <a href="#Home">Home</a>
