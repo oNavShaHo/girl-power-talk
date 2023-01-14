@@ -1,70 +1,22 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+The code is a React application that displays a navigation bar at the top of the page, an interactive map, and a set of user cards. The navigation bar allows the user to navigate to different sections of the page. The background image is also displayed on the top of the page.
 
-In the project directory, you can run:
+The interactive map is rendered using the react-leaflet library and displays markers for different locations. The locations and names of the markers are taken from a public API and are thus different from the actual locations and names. The map also allows the user to interact with it and view different locations. An icon can be attached to the markers but it is not implemented in this example.
 
-### `npm start`
+The user cards are rendered at the bottom of the page and display information about different users, such as their name and location. The data for the user cards is also taken from the same public API, and thus the names and locations of the users are different from real-world data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The code also uses CSS and SCSS for styling the components, and animation styling is also used in the application. The data is fetched from the public API when the application first loads, and the application updates the state of the user cards and markers on the map accordingly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+here are screenshots attached for every page 
+home
+![React App - Google Chrome 14-01-2023 23_06_08](https://user-images.githubusercontent.com/106837111/212487274-4bb4586e-f4d9-46b0-a20f-14657c5556dc.png)
+about
+![React App - Google Chrome 14-01-2023 23_05_52](https://user-images.githubusercontent.com/106837111/212487280-5fa3f949-76f2-4b5d-b68b-622ce3e3f972.png)
+diversity card form
+![React App - Google Chrome 14-01-2023 23_05_56](https://user-images.githubusercontent.com/106837111/212487302-05fd1ee3-ef43-4ee2-91c1-014759fd82f3.png)
+map with location
+![React App - Google Chrome 14-01-2023 23_06_29](https://user-images.githubusercontent.com/106837111/212487315-39c132dc-558d-4da1-95a2-da3d74b43199.png)
