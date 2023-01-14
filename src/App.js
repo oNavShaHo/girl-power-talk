@@ -74,7 +74,7 @@ function SetMapView() {
     const { lat, lng } = user.address.geo;
 
     map.flyTo([lat, lng], 5);
-  }, [user]);
+  }, [user,map]);
 
   return null;
 }
@@ -111,7 +111,7 @@ function App() {
         <div id='Home'>
       <Navbar/>
     
-    <img src={bg1} alt="image description" width="100%" height="50%"/>
+    <img src={bg1} alt=" description" width="100%" height="50%"/>
     </div>
     <center>
       <div id='About'>
