@@ -1,5 +1,5 @@
 
-
+https://dreamy-mooncake-f43d9a.netlify.app/
 The code is a React application that displays a navigation bar at the top of the page, an interactive map, and a set of user cards. The navigation bar allows the user to navigate to different sections of the page. The background image is also displayed on the top of the page.
 
 The interactive map is rendered using the react-leaflet library and displays markers for different locations. The locations and names of the markers are taken from a public API and are thus different from the actual locations and names. The map also allows the user to interact with it and view different locations. An icon can be attached to the markers but it is not implemented in this example.
